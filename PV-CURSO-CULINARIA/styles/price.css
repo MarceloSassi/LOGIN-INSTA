@@ -1,0 +1,72 @@
+#price-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 6, 64);
+    background-image: url(/PV-CURSO-CULINARIA/img/BGMAPA.png);
+    background-size: cover;
+
+}
+
+#price-inner{
+   display: flex;
+   flex-direction: column;
+   gap: 100px;
+ 
+}
+
+#price-section p{
+    color: #f1f1f1
+}
+
+#price-section h4{
+    color:#f1f1f1;
+    font-size: 36px;
+    text-align: center;
+}
+
+#price-section img{
+    width: 200px;
+    margin-top: -80px;
+    
+}
+
+#price-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f147;
+}
+
+#card-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#preco{
+    font-size: 42px;
+    font-family: Georgia;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top:10px;
+}
+
+#price-section .buy-button{
+    background-color: rgb(247, 247, 98);
+    color: rgb(8, 8, 66);
+    transition: 0.5s;
+}
+#price-section .buy-button:hover{
+    background-color: rgb(253, 253, 32);
+    color: rgb(8, 8, 66);
+    transform: scale(1.1);
+}

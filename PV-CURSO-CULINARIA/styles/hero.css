@@ -1,0 +1,48 @@
+/*HERO BANNER*/
+
+#hero-section {
+    background-image: url(../img/BANNER.png);
+    background-size: 100%;
+    background-position: right;
+    height: 650px;
+    padding: 0 90px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #09002a;
+  }
+  
+  #hero-tittle {
+    margin-top: 80px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  #hero-tittle img {
+    width: 100px;
+  }
+  
+  #hero-tittle h1 {
+    font-weight: 900;
+    font-size: 42px;
+    color: #09002a;
+    font-family: Georgia;
+    line-height: 48px;
+  }
+  
+  #hero-tittle p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+  }
+  
+  #hero-text {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff80;
+    border-left: 2px solid #09002a;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+  }

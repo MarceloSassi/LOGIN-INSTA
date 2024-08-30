@@ -1,0 +1,43 @@
+#expert-section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+  
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#expert-inner{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 70%;
+    flex-direction: column;
+}
+
+#expert-text{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff80;
+    border-left: 2px solid #09002a;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    height: auto;
+    width: 600px;
+}
+
+#expert-text h5{
+    font-size:32px ;
+    color: #09002a;
+}
+
+#expert-text p {
+    font-size: 17px;
+  }
+
+  #expert-section img{
+    width: 600px;
+  }
