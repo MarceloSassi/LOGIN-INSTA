@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestão de banca</title>
+    <link rel="stylesheet" href="/BET/styles/global.css" />
+    <link rel="stylesheet" href="/BET/styles/components.css" />
+    <link rel="stylesheet" href="/BET/styles/stats.css">
+  </head>
+  <body>
+    <main>
+      <section class="content-section" id="section-1">
+        <!--PROFILE-->
+        <div id="profile-card">
+          <img src="/BET/img/OIP.jpg" id="profile-img" alt="profile image" />
+          <h3 id="user-name">Marcelo Sassi</h3>
+        </div>
+        <!--BANCO-->
+        <div class="content-box" id="banco">
+          <h4 id="bank-tittle">Banco</h4>
+          <div id="bank-text">
+            <p>Total Apostado: R$ <span id="total-apostado">0.00</span></p>
+            <p>Lucro Total: R$ <span id="lucro-total">0.00</span></p>
+          </div>
+        </div>
+      </section>
+      <!--BETS SECTION-->
+
+      <section class="content-section">
+        <!--FORMULARIO-->
+        <div class="content-box">
+          <h4 id="form-tittle">Adicionar aposta:</h4>
+          <form id="bet-form" action="">
+            <input type="date" id="date" />
+
+            <input
+              placeholder="Valor apostado"
+              type="number"
+              required
+              name="number"
+              step="any"
+              min=""
+              id="bet-value"
+            />
+
+            <input
+              type="number"
+              required
+              name="odd"
+              step="any"
+              id="odd"
+              placeholder="Retorno"
+            />
+
+            <input type="submit" value="Salvar" />
+            <input type="reset" value="limpar" />
+          </form>
+        </div>
+        <!--LISTA-->
+        <div class="content-box" id="list-box">
+          <div id="list-text">
+            <h4>Histórico</h4>
+
+            <button id="limpa">Limpar dados</button>
+          </div>
+          <ul id="bet-list"></ul>
+        </div>
+        <!--ESTATISTICAS-->
+        <div class="content-box" id="stats-box">
+            <h4>Estatísticas</h4>
+            <div id="stats-itens">
+            <p>Assertividade : <span id="assertividade"> 0.00</span></p>
+            <p>Total de apostas : <span id="total-apostas"> 0</span></p>
+            <div id="counter">
+                <p>Greens : <span id="total-green">0</span></p> 
+                <p>Reds : <span id="total-red">0</span></p> 
+            </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    <script src="/BET/js/storage.js"></script>
+  </body>
+</html>
